@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Motion Detection Camera</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background: #111;
+            color: #fff;
+        }
+        img {
+            margin-top: 20px;
+            border: 2px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <h1>📹 Live Video with Motion Detection</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    <p>Images saved in <b>images/</b>, videos saved in <b>videos/</b></p>
+</body>
+</html>
