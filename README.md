@@ -12,7 +12,7 @@ Web interface
 
 
 Future improvements:
-Tunneling so that its available on web like cloudflared tunnel --url http://localhost:<port>
+Tunneling so that its available on web like cloudflared tunnel --url http://localhost:port
 Proposed use of Gunicorn for production ready, python venv with requirements, so that evironment is isolated with external python stuff.
 
 
